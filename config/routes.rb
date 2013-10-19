@@ -3,6 +3,7 @@ Firehose::Application.routes.draw do
   # first created -> highest priority.
 
   root :to => 'staticpage#index'
+  resources :pics
 
 
   # Sample of regular route:
